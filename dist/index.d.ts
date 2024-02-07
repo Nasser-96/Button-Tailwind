@@ -30,4 +30,4 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 declare const Button: React.FC<ButtonProps>;
 
-export { Button, type ButtonProps, ColorsEnum, SizesEnum, VariantsEnum };
+export { Button, ColorsEnum, SizesEnum, VariantsEnum };

@@ -1,2 +1,5 @@
 import "./index.css";
-export * from "./components";
+
+export { Button } from "./components/Button";
+
+export { ColorsEnum, SizesEnum, VariantsEnum } from "./components/enums";
