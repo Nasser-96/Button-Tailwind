@@ -3268,7 +3268,7 @@ var Button = (_a) => {
   return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(
     "button",
     __spreadProps(__spreadValues({}, props), {
-      className: `inline-flex items-center ${getSizes()} ${getVariantWithColor()} rounded-[9999px] justify-center disabled:cursor-not-allowed disabled:opacity-40 ${(_a2 = props.className) != null ? _a2 : ""}`,
+      className: `inline-flex items-center ${getSizes()} ${getVariantWithColor()} rounded-[9px] justify-center disabled:cursor-not-allowed disabled:opacity-40 ${(_a2 = props.className) != null ? _a2 : ""}`,
       children: icon ? /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(import_jsx_runtime2.Fragment, { children: [
         /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { className: "inline-block", children: icon }),
         /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("span", { className: "mr-2 inline-block", children: props.children })
