@@ -1,6 +1,6 @@
 {
   "name": "button-tailwind-nasser",
-  "version": "1",
+  "version": "0.0.20",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
