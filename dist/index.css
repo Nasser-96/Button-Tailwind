@@ -347,8 +347,8 @@ video {
 .justify-center {
   justify-content: center;
 }
-.rounded-\[8px\] {
-  border-radius: 8px;
+.rounded-\[9999px\] {
+  border-radius: 9999px;
 }
 .border {
   border-width: 1px;

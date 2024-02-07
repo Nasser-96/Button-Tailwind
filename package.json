@@ -1,11 +1,12 @@
 {
   "name": "button-tailwind-nasser",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist && prettier --write src/ && tsup"
+    "build": "rm -rf dist && prettier --write src/ && tsup",
+    "build-and-commit": "node -e \"const mssg = process.argv[1]; require('child_process').execSync('npm run build && git add . && git commit -m \\\"' + mssg + '\\\"', { stdio:[0, 1, 2] })\""
   },
   "keywords": [],
   "author": "",
