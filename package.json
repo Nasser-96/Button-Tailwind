@@ -3,6 +3,10 @@
   "version": "0.0.29",
   "description": "",
   "main": "dist/index.js",
+  "files": [
+    "dist",
+    "index.tsx"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist && prettier --write src/ && tsup",
