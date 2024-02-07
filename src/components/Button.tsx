@@ -1,5 +1,5 @@
 import { ColorsEnum, SizesEnum, VariantsEnum } from "./enums";
-import React from "react";
+import "./dynamic-classes";
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -72,7 +72,9 @@ export const Button: React.FC<ButtonProps> = ({
   return (
     <button
       {...props}
-      className={`inline-flex items-center ${getSizes()} ${getVariantWithColor()} rounded-btn-custom justify-center disabled:cursor-not-allowed disabled:opacity-40 ${props.className ?? ""}`}
+      className={`inline-flex items-center ${getSizes()} ${getVariantWithColor()} rounded-[8px] justify-center disabled:cursor-not-allowed disabled:opacity-40 ${
+        props.className ?? ""
+      }`}
     >
       {icon ? (
         <>
