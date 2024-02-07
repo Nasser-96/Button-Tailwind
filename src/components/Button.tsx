@@ -72,7 +72,7 @@ export const Button: React.FC<ButtonProps> = ({
   return (
     <button
       {...props}
-      className={`inline-flex items-center ${getSizes()} ${getVariantWithColor()} rounded-[20px] justify-center disabled:cursor-not-allowed disabled:opacity-40 ${
+      className={`inline-flex items-center ${getSizes()} ${getVariantWithColor()} rounded-[10px] justify-center disabled:cursor-not-allowed disabled:opacity-40 ${
         props.className ?? ""
       }`}
     >
