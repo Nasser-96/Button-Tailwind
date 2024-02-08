@@ -1,4 +1,4 @@
-import { ColorsEnum, SizesEnum, VariantsEnum } from "../types&enums/enums";
+import { ColorsEnum, SizesEnum, VariantsEnum } from "../types_enums/enums";
 import "./dynamic-classes";
 
 export interface ButtonProps

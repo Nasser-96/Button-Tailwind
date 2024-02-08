@@ -2,7 +2,7 @@ import { defineConfig } from "tsup";
 
 export default defineConfig({
   // The file we created above that will be the entrypoint to the library.
-  entry: ["src/index.ts","src/types&enums/enums.ts","src/components/Button.tsx"],
+  entry: ["src/index.ts","src/types_enums/enums.ts","src/components/Button.tsx"],
   // Enable TypeScript type definitions to be generated in the output.
   // This provides type-definitions to consumers.
   dts: true,

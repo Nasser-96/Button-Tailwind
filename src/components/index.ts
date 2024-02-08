@@ -1,2 +1,2 @@
 export * from "./Button";
-export * from "../types&enums/enums";
+export * from "../types_enums/enums";
