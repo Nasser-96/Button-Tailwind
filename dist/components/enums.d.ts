@@ -21,5 +21,9 @@ declare enum SizesEnum {
     Medium = "md",
     Large = "lg"
 }
+declare enum DirectionEnum {
+    LTR = "ltr",
+    RTL = "rtl"
+}
 
-export { ColorsEnum, SizesEnum, VariantsEnum };
+export { ColorsEnum, DirectionEnum, SizesEnum, VariantsEnum };

@@ -3159,7 +3159,7 @@ var require_jsx_runtime = __commonJS({
   }
 });
 
-// src/Button.ts
+// src/components/Button.tsx
 var Button_exports = {};
 __export(Button_exports, {
   Button: () => Button

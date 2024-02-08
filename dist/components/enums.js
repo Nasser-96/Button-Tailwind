@@ -17,16 +17,15 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// src/enums.ts
+// src/components/enums.ts
 var enums_exports = {};
 __export(enums_exports, {
   ColorsEnum: () => ColorsEnum,
+  DirectionEnum: () => DirectionEnum,
   SizesEnum: () => SizesEnum,
   VariantsEnum: () => VariantsEnum
 });
 module.exports = __toCommonJS(enums_exports);
-
-// src/components/enums.ts
 var ColorsEnum = /* @__PURE__ */ ((ColorsEnum2) => {
   ColorsEnum2["Primary"] = "primary";
   ColorsEnum2["Secondary"] = "secondary";
@@ -53,9 +52,15 @@ var SizesEnum = /* @__PURE__ */ ((SizesEnum2) => {
   SizesEnum2["Large"] = "lg";
   return SizesEnum2;
 })(SizesEnum || {});
+var DirectionEnum = /* @__PURE__ */ ((DirectionEnum2) => {
+  DirectionEnum2["LTR"] = "ltr";
+  DirectionEnum2["RTL"] = "rtl";
+  return DirectionEnum2;
+})(DirectionEnum || {});
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   ColorsEnum,
+  DirectionEnum,
   SizesEnum,
   VariantsEnum
 });
