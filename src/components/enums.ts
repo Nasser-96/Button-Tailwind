@@ -22,3 +22,8 @@ export enum SizesEnum {
   Medium = "md",
   Large = "lg",
 }
+
+export enum DirectionEnum {
+  LTR = "ltr",
+  RTL = "rtl",
+}
