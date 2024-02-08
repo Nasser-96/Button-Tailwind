@@ -21,6 +21,10 @@ declare enum SizesEnum {
     Medium = "md",
     Large = "lg"
 }
+declare enum DirectionEnum {
+    LTR = "ltr",
+    RTL = "rtl"
+}
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     size?: SizesEnum;
@@ -30,4 +34,10 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 declare const Button: React.FC<ButtonProps>;
 
-export { Button, ColorsEnum, SizesEnum, VariantsEnum };
+interface InputFieldProps extends React.InputHTMLAttributes<HTMLInputElement> {
+    isValid?: boolean;
+    hint?: string;
+}
+declare function InputField({ hint, isValid, ...props }: InputFieldProps): JSX.Element;
+
+export { Button, type ButtonProps, ColorsEnum, DirectionEnum, InputField, type InputFieldProps, SizesEnum, VariantsEnum };
