@@ -3164,7 +3164,6 @@ var src_exports = {};
 __export(src_exports, {
   Button: () => Button,
   ColorsEnum: () => ColorsEnum,
-  DirectionEnum: () => DirectionEnum,
   InputField: () => InputField,
   SizesEnum: () => SizesEnum,
   VariantsEnum: () => VariantsEnum
@@ -3198,11 +3197,6 @@ var SizesEnum = /* @__PURE__ */ ((SizesEnum2) => {
   SizesEnum2["Large"] = "lg";
   return SizesEnum2;
 })(SizesEnum || {});
-var DirectionEnum = /* @__PURE__ */ ((DirectionEnum2) => {
-  DirectionEnum2["LTR"] = "ltr";
-  DirectionEnum2["RTL"] = "rtl";
-  return DirectionEnum2;
-})(DirectionEnum || {});
 
 // src/components/dynamic-classes.tsx
 var import_jsx_runtime = __toESM(require_jsx_runtime());
@@ -3364,7 +3358,6 @@ function InputField(_a) {
 0 && (module.exports = {
   Button,
   ColorsEnum,
-  DirectionEnum,
   InputField,
   SizesEnum,
   VariantsEnum
